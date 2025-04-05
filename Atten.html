@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Attendance Register</title>
+    <link rel="stylesheet" href="Atten.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hostel Attendance Register</h1>
+        </header>
+
+        <section class="form-section">
+            <form action="" method="POST">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="student-name">Student Name:</label>
+                <input type="text" id="student-name" name="student-name" placeholder="Enter name" required>
+
+                <label for="Room-no.">Room No:</label>
+                <input type="number" id="Room No" name="Room No" placeholder="Enter room no." required>
+
+                <label for="attendance-status">Attendance Status:</label>
+                <select id="attendance-status" name="attendance-status" required>
+                    <option value="present">Present</option>
+                    <option value="absent">Absent</option>
+                </select>
+
+                <button type="submit">Submit Attendance</button>
+            </form>
+        </section>
+        <!-- Calendar Section -->
+       
+                    
+
+        <section class="attendance-list">
+            <h2>Attendance List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Student Name</th>
+                        <th>Room No</th>
+                        <th>Attendance Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024-11-19</td>
+                        <td>Aditya kumar</td>
+                        <td>F-36</td>
+                        <td>Present</td>
+                    </tr>
+
+                    <tr>
+                        <td>2024-11-20</td>
+                        <td>Himanshu yadav</td>
+                        <TD>G-01</TD>
+                        <td>Present</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>2024-11-20</td>
+                        <td>Ayush patel</td>
+                        <td>G-02</td>
+                        <td>Absent</td>
+                    </tr>
+                    <tr>
+                        <td>2024-11-20</td>
+                        <td>Aditya raj </td>
+                        <td>F-35</td>
+                        <td>Present</td>
+                    </tr>
+                    <tr>
+                        <td>2024-11-20</td>
+                        <td>Aditya kumar</td>
+                        <td>F-36</td>
+                        <td>Absent</td>
+                    </tr>
+                    <tr>
+                        <td>2024-11-19</td>
+                        <td>Himanshu yadav</td>
+                        <td>G-01</td>
+                        <td>Absent</td>
+                    </tr>
+                    <tr>
+                        <td>2024-11-19</td>
+                        <td>Ayush patel</td>
+                        <td>G-02</td>
+                        <td>Present</td>
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>2024-11-20</td>
+                        <td>Aditya raj </td>
+                        <td>F-35</td>
+                        <td>Present</td>
+
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
